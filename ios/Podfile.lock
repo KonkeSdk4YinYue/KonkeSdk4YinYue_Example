@@ -1,0 +1,21 @@
+PODS:
+  - KonkeSdk4YinYue (0.1.0)
+
+DEPENDENCIES:
+  - KonkeSdk4YinYue (from `https://github.com/KonkeSdk4YinYue/KonkeSdk4YinYue.git`)
+
+EXTERNAL SOURCES:
+  KonkeSdk4YinYue:
+    :git: https://github.com/KonkeSdk4YinYue/KonkeSdk4YinYue.git
+
+CHECKOUT OPTIONS:
+  KonkeSdk4YinYue:
+    :commit: 8c993d81445008dd6159bfe23036b3ee75b51b34
+    :git: https://github.com/KonkeSdk4YinYue/KonkeSdk4YinYue.git
+
+SPEC CHECKSUMS:
+  KonkeSdk4YinYue: 601e4befdf3027c491688b3616ba228038c98b3d
+
+PODFILE CHECKSUM: f6863a058e2c1b4a6ac34a776cdca87f84410ed3
+
+COCOAPODS: 1.12.1
