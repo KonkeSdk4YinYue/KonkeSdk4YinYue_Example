@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   KonkeSdk4YinYue:
-    :commit: 8c993d81445008dd6159bfe23036b3ee75b51b34
+    :commit: 94f66defdc6368667fdfa94d3d34f55e1f1c1137
     :git: https://github.com/KonkeSdk4YinYue/KonkeSdk4YinYue.git
 
 SPEC CHECKSUMS:
