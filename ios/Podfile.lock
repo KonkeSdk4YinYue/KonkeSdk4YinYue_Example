@@ -1,8 +1,15 @@
 PODS:
-  - KonkeSdk4YinYue (0.1.0)
+  - KonkeSdk4YinYue (0.1.0):
+    - Starscream (~> 4.0.0)
+  - Starscream (4.0.4)
 
 DEPENDENCIES:
   - KonkeSdk4YinYue (from `https://github.com/KonkeSdk4YinYue/KonkeSdk4YinYue.git`)
+  - Starscream (~> 4.0.0)
+
+SPEC REPOS:
+  trunk:
+    - Starscream
 
 EXTERNAL SOURCES:
   KonkeSdk4YinYue:
@@ -10,12 +17,13 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   KonkeSdk4YinYue:
-    :commit: 94f66defdc6368667fdfa94d3d34f55e1f1c1137
+    :commit: cc7caca1c0a9ec0c0aaf8bc23dde8d3f37f7e11b
     :git: https://github.com/KonkeSdk4YinYue/KonkeSdk4YinYue.git
 
 SPEC CHECKSUMS:
-  KonkeSdk4YinYue: 601e4befdf3027c491688b3616ba228038c98b3d
+  KonkeSdk4YinYue: e39bffee488971c79b0cafda7722325c4d7caf3f
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
 
-PODFILE CHECKSUM: f6863a058e2c1b4a6ac34a776cdca87f84410ed3
+PODFILE CHECKSUM: 215456afb5da4e26fcab53d8a7d126eaf74ecd0d
 
 COCOAPODS: 1.12.1
