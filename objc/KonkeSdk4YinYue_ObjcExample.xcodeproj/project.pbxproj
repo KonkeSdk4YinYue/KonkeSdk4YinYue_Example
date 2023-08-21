@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99D0A4A12A80EFF50084AB8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D0A4A02A80EFF50084AB8E /* AppDelegate.m */; };
+		99D0A4A42A80EFF50084AB8E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D0A4A32A80EFF50084AB8E /* SceneDelegate.m */; };
+		99D0A4A72A80EFF50084AB8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D0A4A62A80EFF50084AB8E /* ViewController.m */; };
+		99D0A4AA2A80EFF50084AB8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D0A4A82A80EFF50084AB8E /* Main.storyboard */; };
+		99D0A4AC2A80EFF60084AB8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D0A4AB2A80EFF60084AB8E /* Assets.xcassets */; };
+		99D0A4AF2A80EFF60084AB8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D0A4AD2A80EFF60084AB8E /* LaunchScreen.storyboard */; };
+		99D0A4B22A80EFF60084AB8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D0A4B12A80EFF60084AB8E /* main.m */; };
+		E85107B48ABAC379A715D955 /* Pods_KonkeSdk4YinYue_ObjcExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D291F875BEDA0334FBD229 /* Pods_KonkeSdk4YinYue_ObjcExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F558789D5D8AB1744E5475A /* Pods-KonkeSdk4YinYue_ObjcExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KonkeSdk4YinYue_ObjcExample.debug.xcconfig"; path = "Target Support Files/Pods-KonkeSdk4YinYue_ObjcExample/Pods-KonkeSdk4YinYue_ObjcExample.debug.xcconfig"; sourceTree = "<group>"; };
+		26D291F875BEDA0334FBD229 /* Pods_KonkeSdk4YinYue_ObjcExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KonkeSdk4YinYue_ObjcExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CAE3D6FD3BB7C76EB55FDC5 /* Pods-KonkeSdk4YinYue_ObjcExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KonkeSdk4YinYue_ObjcExample.release.xcconfig"; path = "Target Support Files/Pods-KonkeSdk4YinYue_ObjcExample/Pods-KonkeSdk4YinYue_ObjcExample.release.xcconfig"; sourceTree = "<group>"; };
+		99D0A49C2A80EFF50084AB8E /* KonkeSdk4YinYue_ObjcExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KonkeSdk4YinYue_ObjcExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D0A49F2A80EFF50084AB8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99D0A4A02A80EFF50084AB8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99D0A4A22A80EFF50084AB8E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		99D0A4A32A80EFF50084AB8E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		99D0A4A52A80EFF50084AB8E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		99D0A4A62A80EFF50084AB8E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		99D0A4A92A80EFF50084AB8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99D0A4AB2A80EFF60084AB8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99D0A4AE2A80EFF60084AB8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99D0A4B02A80EFF60084AB8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99D0A4B12A80EFF60084AB8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99D0A4992A80EFF50084AB8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85107B48ABAC379A715D955 /* Pods_KonkeSdk4YinYue_ObjcExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D2168996D9EDE293D63E41F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F558789D5D8AB1744E5475A /* Pods-KonkeSdk4YinYue_ObjcExample.debug.xcconfig */,
+				2CAE3D6FD3BB7C76EB55FDC5 /* Pods-KonkeSdk4YinYue_ObjcExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		99D0A4932A80EFF50084AB8E = {
+			isa = PBXGroup;
+			children = (
+				99D0A49E2A80EFF50084AB8E /* KonkeSdk4YinYue_ObjcExample */,
+				99D0A49D2A80EFF50084AB8E /* Products */,
+				8D2168996D9EDE293D63E41F /* Pods */,
+				C0D9E5513BBCD5EE6E9F2330 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		99D0A49D2A80EFF50084AB8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99D0A49C2A80EFF50084AB8E /* KonkeSdk4YinYue_ObjcExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99D0A49E2A80EFF50084AB8E /* KonkeSdk4YinYue_ObjcExample */ = {
+			isa = PBXGroup;
+			children = (
+				99D0A49F2A80EFF50084AB8E /* AppDelegate.h */,
+				99D0A4A02A80EFF50084AB8E /* AppDelegate.m */,
+				99D0A4A22A80EFF50084AB8E /* SceneDelegate.h */,
+				99D0A4A32A80EFF50084AB8E /* SceneDelegate.m */,
+				99D0A4A52A80EFF50084AB8E /* ViewController.h */,
+				99D0A4A62A80EFF50084AB8E /* ViewController.m */,
+				99D0A4A82A80EFF50084AB8E /* Main.storyboard */,
+				99D0A4AB2A80EFF60084AB8E /* Assets.xcassets */,
+				99D0A4AD2A80EFF60084AB8E /* LaunchScreen.storyboard */,
+				99D0A4B02A80EFF60084AB8E /* Info.plist */,
+				99D0A4B12A80EFF60084AB8E /* main.m */,
+			);
+			path = KonkeSdk4YinYue_ObjcExample;
+			sourceTree = "<group>";
+		};
+		C0D9E5513BBCD5EE6E9F2330 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26D291F875BEDA0334FBD229 /* Pods_KonkeSdk4YinYue_ObjcExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99D0A49B2A80EFF50084AB8E /* KonkeSdk4YinYue_ObjcExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D0A4B52A80EFF60084AB8E /* Build configuration list for PBXNativeTarget "KonkeSdk4YinYue_ObjcExample" */;
+			buildPhases = (
+				DA032D8FF5C4E9E4AFCAA482 /* [CP] Check Pods Manifest.lock */,
+				99D0A4982A80EFF50084AB8E /* Sources */,
+				99D0A4992A80EFF50084AB8E /* Frameworks */,
+				99D0A49A2A80EFF50084AB8E /* Resources */,
+				234A81CB66EC70D1497E9782 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KonkeSdk4YinYue_ObjcExample;
+			productName = KonkeSdk4YinYue_ObjcExample;
+			productReference = 99D0A49C2A80EFF50084AB8E /* KonkeSdk4YinYue_ObjcExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99D0A4942A80EFF50084AB8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					99D0A49B2A80EFF50084AB8E = {
+						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
+					};
+				};
+			};
+			buildConfigurationList = 99D0A4972A80EFF50084AB8E /* Build configuration list for PBXProject "KonkeSdk4YinYue_ObjcExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99D0A4932A80EFF50084AB8E;
+			productRefGroup = 99D0A49D2A80EFF50084AB8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99D0A49B2A80EFF50084AB8E /* KonkeSdk4YinYue_ObjcExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99D0A49A2A80EFF50084AB8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D0A4AF2A80EFF60084AB8E /* LaunchScreen.storyboard in Resources */,
+				99D0A4AC2A80EFF60084AB8E /* Assets.xcassets in Resources */,
+				99D0A4AA2A80EFF50084AB8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		234A81CB66EC70D1497E9782 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KonkeSdk4YinYue_ObjcExample/Pods-KonkeSdk4YinYue_ObjcExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KonkeSdk4YinYue_ObjcExample/Pods-KonkeSdk4YinYue_ObjcExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KonkeSdk4YinYue_ObjcExample/Pods-KonkeSdk4YinYue_ObjcExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA032D8FF5C4E9E4AFCAA482 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KonkeSdk4YinYue_ObjcExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99D0A4982A80EFF50084AB8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D0A4A72A80EFF50084AB8E /* ViewController.m in Sources */,
+				99D0A4A12A80EFF50084AB8E /* AppDelegate.m in Sources */,
+				99D0A4B22A80EFF60084AB8E /* main.m in Sources */,
+				99D0A4A42A80EFF50084AB8E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99D0A4A82A80EFF50084AB8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99D0A4A92A80EFF50084AB8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99D0A4AD2A80EFF60084AB8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99D0A4AE2A80EFF60084AB8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99D0A4B32A80EFF60084AB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99D0A4B42A80EFF60084AB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99D0A4B62A80EFF60084AB8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F558789D5D8AB1744E5475A /* Pods-KonkeSdk4YinYue_ObjcExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W9H78PJM37;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KonkeSdk4YinYue_ObjcExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ikonke.KonkeSdk4YinYue-ObjcExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99D0A4B72A80EFF60084AB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CAE3D6FD3BB7C76EB55FDC5 /* Pods-KonkeSdk4YinYue_ObjcExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W9H78PJM37;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KonkeSdk4YinYue_ObjcExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ikonke.KonkeSdk4YinYue-ObjcExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99D0A4972A80EFF50084AB8E /* Build configuration list for PBXProject "KonkeSdk4YinYue_ObjcExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D0A4B32A80EFF60084AB8E /* Debug */,
+				99D0A4B42A80EFF60084AB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D0A4B52A80EFF60084AB8E /* Build configuration list for PBXNativeTarget "KonkeSdk4YinYue_ObjcExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D0A4B62A80EFF60084AB8E /* Debug */,
+				99D0A4B72A80EFF60084AB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99D0A4942A80EFF50084AB8E /* Project object */;
+}
