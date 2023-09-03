@@ -3,7 +3,7 @@ platform :ios, '11.0'
 target 'KonkeSdk4YinYue_ObjcExample' do
   use_frameworks!
   pod 'KonkeSdk4YinYue', :git => 'https://github.com/KonkeSdk4YinYue/KonkeSdk4YinYue.git'
-  pod 'Starscream', '~> 4.0.0'
+  pod 'KonkeSdk4YinYue_WebSocket', :git => 'https://github.com/KonkeSdk4YinYue/KonkeSdk4YinYue_WebSocket.git'
 end
 
 post_install do |installer|

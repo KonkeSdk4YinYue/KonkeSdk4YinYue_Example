@@ -7,11 +7,13 @@
 
 import UIKit
 import KonkeSdk4YinYue
+import KonkeSdk4YinYue_WebSocket
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        KonkeSdk4YinYueRunner.socketManager = WebSocketManager()
         KonkeSdk4YinYueRunner.prepare()
         return true
     }

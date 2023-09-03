@@ -7,6 +7,7 @@
 
 #import "AppDelegate.h"
 @import KonkeSdk4YinYue;
+@import KonkeSdk4YinYue_WebSocket;
 
 @interface AppDelegate ()
 
@@ -17,6 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    KonkeSdk4YinYueRunner.socketManager = [[WebSocketManager alloc] init];
     [KonkeSdk4YinYueRunner prepare];
     return YES;
 }

@@ -1,11 +1,14 @@
 PODS:
   - KonkeSdk4YinYue (0.1.0):
     - Starscream (~> 4.0.0)
-  - Starscream (4.0.4)
+  - KonkeSdk4YinYue_WebSocket (0.1.0):
+    - KonkeSdk4YinYue
+    - Starscream (~> 4.0.0)
+  - Starscream (4.0.6)
 
 DEPENDENCIES:
   - KonkeSdk4YinYue (from `https://github.com/KonkeSdk4YinYue/KonkeSdk4YinYue.git`)
-  - Starscream (~> 4.0.0)
+  - KonkeSdk4YinYue_WebSocket (from `https://github.com/KonkeSdk4YinYue/KonkeSdk4YinYue_WebSocket.git`)
 
 SPEC REPOS:
   trunk:
@@ -14,16 +17,22 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   KonkeSdk4YinYue:
     :git: https://github.com/KonkeSdk4YinYue/KonkeSdk4YinYue.git
+  KonkeSdk4YinYue_WebSocket:
+    :git: https://github.com/KonkeSdk4YinYue/KonkeSdk4YinYue_WebSocket.git
 
 CHECKOUT OPTIONS:
   KonkeSdk4YinYue:
-    :commit: ded146ea1afbc7eedb59e536e4a1f3e9b47cef74
+    :commit: b437058e80154d1db545109d325cc713be558aca
     :git: https://github.com/KonkeSdk4YinYue/KonkeSdk4YinYue.git
+  KonkeSdk4YinYue_WebSocket:
+    :commit: 05e80e87d022ae249aac7e538932d57f454130b9
+    :git: https://github.com/KonkeSdk4YinYue/KonkeSdk4YinYue_WebSocket.git
 
 SPEC CHECKSUMS:
   KonkeSdk4YinYue: db3005b7e2837702be46f206c33d9c3a591cfcb4
-  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  KonkeSdk4YinYue_WebSocket: 22fceef88dbb659dac3150161f4b41dc15064574
+  Starscream: fb2c4510bebf908c62bd383bcf05e673720e91fd
 
-PODFILE CHECKSUM: e7c26d44b3683df5f7d81723f75d211dccef4795
+PODFILE CHECKSUM: 063d42f8dab90fb4de2f2199035946f40a9bc6f5
 
 COCOAPODS: 1.12.1
