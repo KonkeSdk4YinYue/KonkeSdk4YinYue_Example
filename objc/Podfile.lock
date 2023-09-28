@@ -22,7 +22,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   KonkeSdk4YinYue:
-    :commit: b437058e80154d1db545109d325cc713be558aca
+    :commit: c8ad6b6761600fb0dbd824d5ffcca41b5704364e
     :git: https://github.com/KonkeSdk4YinYue/KonkeSdk4YinYue.git
   KonkeSdk4YinYue_WebSocket:
     :commit: 05e80e87d022ae249aac7e538932d57f454130b9

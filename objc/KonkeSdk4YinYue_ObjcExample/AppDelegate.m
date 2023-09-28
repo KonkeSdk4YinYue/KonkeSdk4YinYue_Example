@@ -18,6 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    KonkeSdk4YinYueRunner.cloudConfig.appKey = @"1682401406";
+    KonkeSdk4YinYueRunner.cloudConfig.baseURL = @"https://kapp.ikonke.com";
     KonkeSdk4YinYueRunner.socketManager = [[WebSocketManager alloc] init];
     [KonkeSdk4YinYueRunner prepare];
     return YES;
